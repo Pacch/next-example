@@ -10,9 +10,9 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
   },
   purge: [
-    './src/**/*.html',
-    './src/**/*.tsx',
-    './src/**/*.js',
-    './src/**/*.jsx',
+    './pages/**/*.html',
+    './pages/**/*.tsx',
+    './pages/**/*.js',
+    './pages/**/*.jsx',
   ],
 };
