@@ -4,5 +4,15 @@ module.exports = {
   theme: {
     extend: {}
   },
-  plugins: []
+  plugins: [],
+  removeDeprecatedGapUtilities: true,
+  future: {
+    removeDeprecatedGapUtilities: true,
+  },
+  purge: [
+    './src/**/*.html',
+    './src/**/*.tsx',
+    './src/**/*.js',
+    './src/**/*.jsx',
+  ],
 };
